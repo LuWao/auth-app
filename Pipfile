@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "==0.63.0"
+fastapi-jwt-auth = "==0.5.0"
+fastapi-sqlalchemy = "==0.2.1"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+alembic = "==1.5.3"
+psycopg2 = "==2.8.6"
+redis = "==3.5.3"
+
+[requires]
+python_version = "3.8"
